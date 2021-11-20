@@ -1,10 +1,12 @@
 import "./App.css";
-import Statehook from "./Statehook";
+// import Statehook from "./Statehook";
+import HookEffect from "./HookEffect";
 
 function App() {
   return (
     <div className="App">
-      <Statehook />
+      {/* <Statehook /> */}
+      <HookEffect />
     </div>
   );
 }
