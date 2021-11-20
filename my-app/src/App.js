@@ -1,12 +1,13 @@
 import "./App.css";
 // import Statehook from "./Statehook";
-import HookEffect from "./HookEffect";
-
+// import HookEffect from "./HookEffect";
+import Login from "./Login";
 function App() {
   return (
     <div className="App">
       {/* <Statehook /> */}
-      <HookEffect />
+      {/* <HookEffect /> */}
+      <Login />
     </div>
   );
 }
