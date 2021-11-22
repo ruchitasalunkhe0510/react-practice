@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import Reducess from "./Reducess";
+import ParentComponent from "./Component/ParentComponent";
+// import Reducess from "./Reducess";
 // import UseEffectclass from "./UseEffectclass";
 // import UseEffectfun from "./UseEffectfun";
 // import UseEffect2 from "./UseEffect2";
@@ -27,7 +28,8 @@ function App() {
       {/* <UseEffect2 /> */}
       {/* <UseEffectclass /> */}
       {/* <UseEffectfun /> */}
-      <Reducess />
+      {/* <Reducess /> */}
+      <ParentComponent />
     </div>
   );
 }
