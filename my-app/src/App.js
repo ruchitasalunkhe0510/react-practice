@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import UseEffectclass from "./UseEffectclass";
+import Reducess from "./Reducess";
+// import UseEffectclass from "./UseEffectclass";
+// import UseEffectfun from "./UseEffectfun";
 // import UseEffect2 from "./UseEffect2";
 // import Statehook from "./Statehook";
 // import HookEffect from "./HookEffect";
@@ -23,7 +25,9 @@ function App() {
         click me
       </button> */}
       {/* <UseEffect2 /> */}
-      <UseEffectclass />
+      {/* <UseEffectclass /> */}
+      {/* <UseEffectfun /> */}
+      <Reducess />
     </div>
   );
 }
