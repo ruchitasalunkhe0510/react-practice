@@ -4,7 +4,7 @@ import Title from "./Title";
 import Button from "./Button";
 
 function ParentComponent() {
-  const [age, setAge] = useState();
+  const [age, setAge] = useState(25);
   const [salary, setSalary] = useState(10000);
   const incrementAge = () => {
     setAge(age + 1);
