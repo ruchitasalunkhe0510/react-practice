@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import ParentComponent from "./Component/ParentComponent";
+import CounterMemo from "./CounterMemo";
+// import ParentComponent from "./Component/ParentComponent";
 // import Reducess from "./Reducess";
 // import UseEffectclass from "./UseEffectclass";
 // import UseEffectfun from "./UseEffectfun";
@@ -29,7 +30,8 @@ function App() {
       {/* <UseEffectclass /> */}
       {/* <UseEffectfun /> */}
       {/* <Reducess /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <CounterMemo />
     </div>
   );
 }
