@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import CounterMemo from "./CounterMemo";
+// import CounterMemo from "./CounterMemo";
+import Loginboot from "./Components/Loginboot";
 // import ParentComponent from "./Component/ParentComponent";
 // import Reducess from "./Reducess";
 // import UseEffectclass from "./UseEffectclass";
@@ -31,7 +32,8 @@ function App() {
       {/* <UseEffectfun /> */}
       {/* <Reducess /> */}
       {/* <ParentComponent /> */}
-      <CounterMemo />
+      {/* <CounterMemo /> */}
+      <Loginboot />
     </div>
   );
 }
